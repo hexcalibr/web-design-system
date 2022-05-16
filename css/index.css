@@ -1,0 +1,58 @@
+.color-box {
+    display:inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    
+}
+
+section.colors {
+    width: 1200px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.main-color {
+    background-color: #019b5d;
+}
+
+.secondary-color {
+    background-color: #5cbe97;
+}
+
+.tertiary-color {
+    background-color: #f2d591;
+}
+
+.main-font {
+    font-family: 'Quicksand';
+    font-weight: 800;
+}
+
+.secondary-font {
+    font-family: 'Quicksand';
+    font-weight: 300;
+}
+
+.tertiary-font {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+}
+
+.centered-text {
+    text-align: center;
+}
