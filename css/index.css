@@ -1,15 +1,18 @@
-.color-box {
+section {
+    /* margin-top: 100px;
+    margin-left: 100px */
+    width: 800px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+
+div.color-box {
     display:inline-block;
     border: 1px solid black;
     width: 200px;
     height: 200px;
-    
-}
-
-section.colors {
-    width: 1200px;
-    border: 1px solid black;
-    margin: 0 auto;
+    margin: 25px;
 }
 
 .main-color {
@@ -24,35 +27,35 @@ section.colors {
     background-color: #f2d591;
 }
 
-.main-font {
+h1, .main-font {
     font-family: 'Quicksand';
-    font-weight: 800;
+    font-weight: 600;
+    font-size:22px;
 }
 
-.secondary-font {
+p, #secondary-font {
     font-family: 'Quicksand';
-    font-weight: 300;
+    font-weight: 500;
 }
 
-.tertiary-font {
+#tertiary-font {
     font-family: 'Josefin Sans';
-    font-weight: 300;
+    font-weight: 200;
+    font-style: italic;
 }
 
 .bold {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .light {
-    font-weight: 300;
-}
-
-.quote {
-    font-style: italic;
-    font-weight: 300;
-    font-family: 'Josefin Sans';
+    font-weight: 500;
 }
 
 .centered-text {
     text-align: center;
+}
+
+.text-styles {
+    font-size: 18px;
 }
